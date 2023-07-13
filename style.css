@@ -1,0 +1,44 @@
+body{
+  background-color: rgb(0, 128, 255);
+}
+
+fieldset{
+  background-color:aquamarine;
+  border-color: brown;
+}
+#Name{
+  border-color:brown
+}
+
+#Email{
+  border-color:brown
+}
+
+#Age{
+  border-color:brown
+}
+
+#Password{
+  border-color:brown
+}
+
+input[type=radio]#Recommendation{
+  accent-color: black;
+}
+
+input[type=checkbox]#Future{
+  accent-color: black;
+}
+
+#button1{
+  border-color: brown;
+}
+
+#button2{
+  border-color: brown;
+}
+
+#header{
+  border-color: brown;
+}
+

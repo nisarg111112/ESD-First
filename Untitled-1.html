@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="survey img.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Survey Form</title>
+</head>
+<body>
+    <center><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfovADjg_vO2a_-ZbUkI1D5BIAhTPoU31iOhuwC4Yl&s" alt="tcet header" id="header"></center>
+    <center> <h1>&gt;&gt;&nbsp;<u>Survey Form</u>&nbsp;&lt;&lt;</h1></center>
+    <fieldset>
+    <p> <label for="Name" id="Name"><b>Name:</b></label>
+    <input type="text" id="Name" placeholder="Enter your name" required></p>
+    <p><label for="Email" id="Email"><b>Email:</b></label>
+    <input type="text" name="Email" id="Email" required></p>
+    <p><label for="Age" id="Age"><b>Age:</b></label>
+    <input type="number" name="Age" id="Age" min="1" max="100" step="1" value="18"></p>
+    <p><label for="Password" id="Password" ><b>Password:</b></label>
+    <input type="password" name="Password" id="Password" placeholder="Enter Password" required></p>
+    <hr>
+    <p><label for="Option"><b>Which option best describes your current role?</b></label>&nbsp;&nbsp;   
+    <select name="Option" id="Option">
+    <option value="Student">Student</option>
+    <option value="Teacher">Teacher</option>
+    <option value="Employed">Employed</option>
+    <option value="Unemployed">Unemployed</option></select></p>
+    <label for="Recommendation" id="Recommendation"><b>How likely is that you would recommend this course to a friend?</b>
+        <input type="radio" name="Recommendation" id="Recommendation" value="Definitely">
+        <label for="Definitely">Definitely</label>
+        <input type="radio" name="Recommendation" id="Recommendation" value="May be">
+        <label for="May be">May be</label>
+        <input type="radio" name="Recommendation" id="Recommendation" value="Not sure">
+        <label for="Not sure">Not sure</label>
+    </label>
+    <p><label for="Feedback" id="Feedback"><b>What did you like the most about the course?</b></label>&nbsp;&nbsp;
+    <select name="Feedback" id="Feedback">
+        <option value="HTML">HTML</option>
+        <option value="CSS">CSS</option>
+        <option value="JavaScript">JavaScript</option>
+        <option value="C">C</option>
+        <option value="C++">C++</option>
+    </select></p>
+    <label for="Future" id="Future"><b>Things that should be improved in the Future</b>
+        <input type="checkbox" name="Future" id="Future" value="Front-end projects">
+        <label for="Front-end projects">Front-end projects</label>
+        <input type="checkbox" name="Future" id="Future" value="Back-end projects">
+        <label for="Back-end projects">Back-end projects</label>
+        <input type="checkbox" name="Future" id="Future" value="Data visualisation">
+        <label for="Data visualisation">Data visualisation</label>
+    </label>
+    <hr id="hr2">
+    <p><button id="button1">Reset</button>&nbsp;&nbsp;&nbsp;&nbsp;
+    <button id="button2">Submit</button></p>
+</fieldset>
+</body>
+</html>
